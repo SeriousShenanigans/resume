@@ -1,12 +1,7 @@
 name: hello world
-
-on:
-  workflow_dispatch:
-
+on: [push]
 jobs: 
   print-username: 
     runs-on: ubuntu-latest
-
-    steps: 
-      - name: print hello world
-        run: echo hello world
+    steps:
+      - run: echo "hello world"
