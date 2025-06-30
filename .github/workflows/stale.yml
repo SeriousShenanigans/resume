@@ -1,0 +1,14 @@
+name: 'Close stale issues and PRs'
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-issue-message: 'It has been 3 days of inactivity on this PR. Closing PR after 30 days.'
+          days-before-stale: 30
+          days-before-close: 3
