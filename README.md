@@ -74,7 +74,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Contact
 
 - Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: 
 - GitHub: [Your GitHub Profile](https://github.com/yourusername)
 
 ---
